@@ -1,0 +1,4 @@
+---
+# tasks file for ansible
+- name: gla install
+  import_tasks: gla.yml

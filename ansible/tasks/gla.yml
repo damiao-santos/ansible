@@ -1,0 +1,8 @@
+- name: update packages
+  ansible.builtin.apt:
+    name: "*"
+    state: latest
+
+- name: install net-tools
+  ansible.builtin.apt:
+    name: net-tools
